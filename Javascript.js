@@ -13,7 +13,7 @@ console.error("NOT");
 
 /*JavaScript Variable
 Variables: They are used to store data in container*/
-var number 1= 34;
+var number = 34;
 console.log(number);
 
 
@@ -51,10 +51,61 @@ var arr =[1,2,3,4,5]
   console.log("The value of g*h is ",g*h);
   console.log("The value of g/h is ",g/h);
   
-  //Assignment Operators
+  //Functions:function is a block of code designed to perform a particular task
 
-  //Comparison operator
-  var 7 =
+  function  avg(a,b){
+    return(a+b)/2;
+  }
+  c= avg(2,3);
+  console.log(c);
+  
+  //Conditions in JS
+   var age= 12;
+   if(age>10){
+    console.log("Above 10")
+   }
+   else if(age<10){
+    console.log("Nothing")
+   }
+   else{
+
+   }
+
+
+   //Loops
+
+   //Forloops
+   var a= [1,2,3,4];
+   console.log(a);
+   for(var i=0;i<a.length;i++){
+    console.log (arr[i])
+   }
+   //for esch loop
+   array.forEach(element => {
+    
+   });
+
+   //While loop
+   while (condition) {
+    
+   }
+
+   //Break/Continue
+   var a= [1,2,3,4];
+   console.log(a);
+   for(var i=0;i<a.length;i++){
+    console.log (arr[i])
+    break
+   }
+
+//Dates
+let mydate= new Date();
+console.log (mydate.getTime);
+
+
+
+  
+  
 
 
 
