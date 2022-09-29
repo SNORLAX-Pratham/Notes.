@@ -35,12 +35,12 @@
 ### **Genral**
 
 | Syntax     | Description                               |
-| ---------- | ----------------------------------------- | ------------------ |
+| ---------- | ----------------------------------------- |
 | `pwd `     | Print working directory                   |
 | `whoami `  | Current username                          |
 | `date `    | time and date                             |
 | `history ` | all used command                          |
-| `man `     |                                           | manula for command |
+| `man `     | manula for command                        |                  
 | `who `     | all logged in user                        |
 | `w `       | showws current process                    |
 | ` cat`     | Display file content                      |
@@ -58,4 +58,4 @@
 | `groupadd ` | Make group              |
 | `chmod `+/- | Add / remove permission |
 | ` chown`    | To own file             |
-| ` `         |                         |
+
