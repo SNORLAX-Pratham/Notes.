@@ -11,7 +11,9 @@ These are the elements outlined in John Gruber’s original design document. All
 ### Heading
 
 # H1
+
 ## H2
+
 ### H3
 
 ### Bold
@@ -20,7 +22,7 @@ These are the elements outlined in John Gruber’s original design document. All
 
 ### Italic
 
-*italicized text*
+_italicized text_
 
 ### Blockquote
 
@@ -106,14 +108,19 @@ That is so funny! :joy:
 
 (See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
 
-### Highlight
-
-I need to highlight these ==very important words==.
-
 ### Subscript
 
-H~2~O
+this<sub>ok</sub>
 
 ### Superscript
 
-X^2^
+HI <sup>Hello</sup>
+
+### Text align center
+
+ <p style="text-align: center;">Index</p>
+
+### Highlight text
+
+<mark>Marked text</mark>
+<sup></sup>
