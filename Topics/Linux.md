@@ -40,7 +40,11 @@
 | `whoami `  | Current username                          |
 | `date `    | time and date                             |
 | `history ` | all used command                          |
+<<<<<<< HEAD:Topics/Linux.md
 | `man `     | manula for command                        |
+=======
+| `man `     | manula for command                        |                  
+>>>>>>> fbe89ac554b57be086301331101911c8e9dab36c:Linux.md
 | `who `     | all logged in user                        |
 | `w `       | showws current process                    |
 | ` cat`     | Display file content                      |
@@ -59,6 +63,9 @@
 | `chmod `+/- | Add / remove permission |
 | ` chown`    | To own file             |
 
+<<<<<<< HEAD:Topics/Linux.md
 
 # Shell Scripting
 >List of command listed in order of execution
+=======
+>>>>>>> fbe89ac554b57be086301331101911c8e9dab36c:Linux.md
