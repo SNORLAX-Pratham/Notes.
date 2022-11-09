@@ -1,8 +1,13 @@
-# Git /Github
+# Git & Github
 
-## Index
+---
 
-GIT:It is a distributed version controle system.
+## <p align="center">Index </p>
+
+1. [Setup Git]
+
+<class="git"> GIT </>
+:It is a distributed version controle system.
 GIT Installation
 1.first we ne need to install git from git website
 2.Run the git with all default settings

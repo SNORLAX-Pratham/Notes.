@@ -1,5 +1,8 @@
 # Java Script
 
+- Programming Lang of Web
+- Ecma Script: It is script on which JS is based on.
+
 ---
 
 JavaScript can "display" data in different ways:
@@ -17,60 +20,119 @@ JavaScript can "display" data in different ways:
 
 Variables: They are used to store data in container
 
+- Type of variable var,let,const
+- `var` is globle scoped
+
+  ```
+  var a=2;
+  console.log(a)
+  ```
+
+- `Let `and `const` block scoped
+  ```
+  let a=2;
+  console.log(a)
+  ```
+  ```
+  const a=2;
+  console.log(a)
+  ```
+
+`/* Multiline Comment*/` `// Single Line Comment`
+
+## Data type in Js
+
+### Premitive Datatype
+
+| Data Type | Code                    |
+| --------- | ----------------------- |
+| Null      | `let a = null;`         |
+| Number    | `let b = 145;`          |
+| String    | `let c = "Pratham"`     |
+| Symbol    | `let d = Symbol("he")`  |
+| Undefined | `let e = undefined;`    |
+| Boolean   | `let f = true;`         |
+| BigInt    | `let g = BigInt("567")` |
+
+To Find Datatype
+`console.log(typeof a)`
+
+> Referance data types : Arrays And objects
+
+## Objects/Non-Premitive in Js
+
 ```
-var number = 34;
-console.log(number);
-```
-
-`/* Multiline Comment*/`
-
-## Data type in js
-
-```
-var string1 ="This is a String";
-var num =445;
-
-```
-
-## Objects in js
-
-```
-var marks ={
-object1:1,
-object2:2,
+var fruits ={
+object1:Mango,
+object2:Banana
 }
-```
-
-## Boolean data types
+console.log(object1)
 
 ```
-var a = true;
-var b =false;
-console.log(a,b)
-
-```
-
-> Ther are two type of data type in JS
-
-1. Primitive data types : Undefined,null,number,string,boolean,Symbole
-2. Referance data types : Arrays And objects
 
 # Arrays
 
-var arr =[1,2,3,4,5]
+```
+let arr =[1,2,3,4,5]
+```
 
 # Operator in JS
 
 ### Arithmatic operators
 
 ```
- var g =10;
- var h =12;
- console.log("The value of g+h is ",g+h);
- console.log("The value of g-h is ",g-h);
- console.log("The value of g*h is ",g*h);
- console.log("The value of g/h is ",g/h);
+let a =1;
+let b=2;
+console.log("a+b=",a+b);  // Add
+console.log("a-b=",a-b); // Sub
+console.log("a/b=",a/b); // Divide
+console.log("a*b=",a*b); //Multiply
+console.log("a**b=",a**b); // Exponant
+console.log("a%b=",a%b); //Modulus
+console.log("a++=",a++); //Incriment
+console.log("a--=",a--); // Decrement
 ```
+
+### Assignment Operator
+
+Equal To EG-
+
+```
+let a =3 ;
+b=a;
+console.log(b)
+
+```
+
+| Operator | Function |
+| -------- | -------- |
+| =        | x=y      |
+| +=       | x=x+y    |
+| -=       | x=x-y    |
+| \*=      | x=x\*Y   |
+| /=       | x= x/y   |
+| \*\*=    | x=x\*\*Y |
+
+### Comparison Operator
+
+| Operator | Function              | Example |
+| -------- | --------------------- | ------- |
+| ==       | Equal to              | x`==`y  |
+| !=       | Not Equal to          | x`!=`y  |
+| >        | Greater than          | x`>`y   |
+| <        | less than             | x'<'y   |
+| >=       | Greater than equal to | x`>=`y  |
+| <=       | less than equl to     | x`<=`y  |
+
+### Logical operators
+
+sometime logical operator are also called boolean operator
+
+| Operator | Example              |
+| -------- | -------------------- | --- | ----- |
+| and      | x<5 `&&` x<7         |
+| or       | x<5 `                |     | ` x<3 |
+| not      | `!`(x < 5 && x < 10) |
 
 # Functions:
 

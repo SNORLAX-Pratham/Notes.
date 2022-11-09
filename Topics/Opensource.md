@@ -14,6 +14,5 @@ https://www.youtube.com/watch?v=c6b6B9oN4Vg (Watch this video if yo face any pro
 10. git add .
 11. git commit
 12. git push
-13.
 
 To find open source project on google summer of code and then go to github repo and then start contributting

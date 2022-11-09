@@ -171,6 +171,14 @@ int x=sc.nextInt();
 
 3. _Assignment operator_
    (assign value,= is also assignment operator )
+   Operator | Function |
+   | --- | ------|
+   | = | x=y |
+   | += | x=x+y |
+   | -= | x=x-y |
+   | *= | x=x*Y |
+   | /= | x= x/y|
+   | **= |x=x**Y |
 
 4. **Comparison operator**
 

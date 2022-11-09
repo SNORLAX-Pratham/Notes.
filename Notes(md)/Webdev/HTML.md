@@ -66,3 +66,67 @@ If we use only tag our website will look booring therefore we use attribute
 
 </footer>
 </html>
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Heding</h1>
+    <h2>Heding</h2>
+    <h3>Heding</h3>
+    <h4>Heding</h4>
+    <h5>Heding</h5>
+    <h6>Heding</h6>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptate.</p>
+<a href="img.jpg">This is image</a>
+<img src="img.jpg" alt="Image">
+
+<!-- formatting element -->
+<b>Text</b>
+<strong>Text</strong>
+<i>Text</i>
+<em>Text</em>
+<mark> Text</mark>
+<sub>Text</sub>
+<sup>Text</sup>
+<abbr title="Prathamesh">Pratham</abbr>
+
+<!-- Likn attribute -->
+<a href="google.com" target="_blank" >link</a>
+<a href="google.com" target="_top" >link</a>
+<a href="google.com" target="_self" >link</a>
+<a href="google.com" target="_parent" >link</a>
+
+<!-- Tables -->
+<table>
+    <tr>
+        <th>Name</th>
+        <th>No</th>
+    </tr>
+    <td>ok</td>
+    <td>123</td>
+</table>
+
+<!-- list -->
+<ul>
+    <li>apple</li>
+    <li>mango</li>
+</ul>
+<ol>
+    <li>apple</li>
+    <li>mango</li>
+</ol>
+<dl>
+    <dt>apple</dt>
+    <dd>fruit</dd>
+</dl>
+
+</body>
+</html>
+```
