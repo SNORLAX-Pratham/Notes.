@@ -1,234 +1,254 @@
-# **Python Notes**
+
+# Python Notes
 
 ## <p style="text-align: center;"> Index </p>
 
-1. Basics Syntax
-2. Comment
-3. Variable
-4. Data Types
-5. Operators
-6. Lists
-7. Dictionaries
-8. If...Else
-9. While Loops
-10. For Loops
-11. Functions
-12. Arrays
-13. Classes/Objects
+## 1. Basics Syntax
+## 2. Comment
+## 3. Variable
+## 4. Data Types
+## 5. Operators
+## 6. Lists
+## 7. Dictionaries
+## 8. If...Else
+## 9. While Loops
+## 10. For Loops
+## 11. Functions
+## 12. Arrays
+## 13. Classes/Objects
 
----
 
-## Basics Syntex
+## Basics Syntax
 
-Print
-
-```
-print= ("Hellow world")
+### Print
+```python
+print("Hello world")
 ```
 
-Input
-
-```
-input("Ask input from user")
-
+### Input
+```python
+input("Ask input from user: ")
 ```
 
-Length:Gives length of function
-
+### Length: Gives length of function
+```python
+len("Example")
 ```
-len()
-```
 
-Type: Give type of function
-
-```
-type("I am character")
+### Type: Give type of function
+```python
+type("I am a character")
 ```
 
 ---
 
-## Commment
+## Comment
 
+### Single line comment
+```python
+# This is a single line comment
 ```
-# or /* Multi Line comment */
+
+### Multi-line comment
+```python
+'''
+This is a
+multi-line comment
+'''
 ```
 
 ---
 
 ## Variable
 
-Whoes value can be changed
-
-```
-x= 13
-y= apple
-```
-
-### _Casting a Variable_
-
-```
-x=int(3)
-y=char("apple")
-
+### Whose value can be changed
+```python
+x = 13
+y = "apple"
 ```
 
-### _Assigning Multipal value to same variable_
-
+### Casting a Variable
+```python
+x = int(3)
+y = str("apple")
 ```
-x,y,z= apple, mango,banana
-x,y,x= lion
+
+### Assigning Multiple values to same variable
+```python
+x, y, z = "apple", "mango", "banana"
+x, y, x = "lion", "tiger", "lion"
 ```
 
 ---
 
-## Data Type
+## Data Types
 
-Ways in which data can be stored
-|Data Type|Code|Example|
-|---|---|---|
-|String|`str`|` x=("Hellow world")`|
-|Integer|`int`|` x=45`|
-|Float|`float`|` x=65.627`|
-|Complex|`complex`|` x=4i`|
-|Boolena|`bool`|` x=true`|
+### Ways in which data can be stored
+
+### String
+```python
+x = "Hello world"
+```
+
+### Integer
+```python
+x = 45
+```
+
+### Float
+```python
+x = 65.627
+```
+
+### Complex
+```python
+x = 4 + 1j
+```
+
+### Boolean
+```python
+x = True
+```
 
 ---
 
 ## Operators
 
-### _Arithmatic operators_
+### Arithmetic operators
+```python
+x = 10
+y = 5
+print(x + y)  # Add
+print(x - y)  # Subtract
+print(x * y)  # Multiply
+print(x / y)  # Divide
+print(x % y)  # Modulus
+print(x ** y) # Exponential
+print(x // y) # Quotient
+```
 
-| Operator    | Example |
-| ----------- | ------- |
-| Add         | x`+`y   |
-| Substract   | x`-`y   |
-| Multiply    | x`*`y   |
-| Divide      | x`/`y   |
-| Modulus     | x`%`y   |
-| Exponential | x`**`y  |
-| Qutiont     | x`//`y  |
+### Comparison Operator
+```python
+print(x == y)  # Equal to
+print(x != y)  # Not Equal to
+print(x > y)   # Greater than
+print(x < y)   # Less than
+print(x >= y)  # Greater than or equal to
+print(x <= y)  # Less than or equal to
+```
 
-### _Comparison Operator_
-
-| Operator | Function              | Example |
-| -------- | --------------------- | ------- |
-| ==       | Equal to              | x`==`y  |
-| !=       | Not Equal to          | x`!=`y  |
-| >        | Greater than          | x`>`y   |
-| <        | less than             | x'<'y   |
-| >=       | Greater than equal to | x`>=`y  |
-| <=       | less than equl to     | x`<=`y  |
-
-### _Logical Operator_
-
-| Operator | Example               |
-| -------- | --------------------- |
-| and      | x<5 and x<7           |
-| or       | x<5 or x<3            |
-| not      | not(x < 5 and x < 10) |
+### Logical Operator
+```python
+print(x < 5 and x < 7)
+print(x < 5 or x < 3)
+print(not(x < 5 and x < 10))
+```
 
 ---
 
 ## List
-
-```
-list=[cats,dogs,lemur]
+```python
+list_example = ["cats", "dogs", "lemur"]
 ```
 
 ---
 
 ## Dictionaries
-
-```
-Dictionaries={
-apple:fruit
-ball:toy
+```python
+dictionaries_example = {
+    "apple": "fruit",
+    "ball": "toy"
 }
 ```
 
-## If-else
+---
 
-We can do nesting in the if else statement
-
-```
-if x<=12
+## If-Else
+```python
+x = 10
+if x <= 12:
     print("This is a condition")
-elif
-    print("another statement")
-else
+elif x > 12:
+    print("Another statement")
+else:
     print("This is a statement")
-
 ```
 
 ---
 
 ## While Loop
+```python
+n = 1
+while n < 100:
+    print(n)
+    n += 1
+```
 
-```
-m=1
-while n<100:
-    m+=1
-```
+---
 
 ## For Loop
-
-```
-fruits=["Apple", "Banana", "mango"]
+```python
+fruits = ["Apple", "Banana", "Mango"]
 for fruit in fruits:
     print(fruit)
 ```
 
-### ` break` to break from a loop
+### Using `break` to exit from a loop
+```python
+for fruit in fruits:
+    if fruit == "Banana":
+        break
+    print(fruit)
+```
 
 ---
 
-# Functions
-
+## Functions
+```python
 def my_function():
-print("Hi")
-name=input("name")
-print("Hi")
-_Calling function_
-` my_function()`
-
-## Array
-
-Arrays are used to store multiple values in one single variable
-
+    print("Hi")
+    name = input("Enter your name: ")
+    print("Hi", name)
 ```
-fruits=[apple,mango,banana]
+
+### Calling function
+```python
+my_function()
+```
+
+---
+
+## Arrays
+
+### Arrays are used to store multiple values in one single variable
+```python
+fruits = ["apple", "mango", "banana"]
 ```
 
 ---
 
 ## Classes
 
-Python is an object oriented programming language.
-Almost everything in Python is an object, with its properties and methods.
-A Class is like an object constructor, or a "blueprint" for creating objects.
-
-```
+### Python is an object oriented programming language.
+### Almost everything in Python is an object, with its properties and methods.
+### A Class is like an object constructor, or a "blueprint" for creating objects.
+```python
 class MyClass:
-  x=5
-
+    x = 5
 ```
 
-### _**init**()_
+### `__init__()`
 
-The examples above are classes and objects in their simplest form, and are not really useful in real life applications.
-To understand the meaning of classes we have to understand the built-in **init**() function
-All classes have a function called **init**(), which is always executed when the class is being initiated.
-Use the **init**() function to assign values to object properties, or other operations that are necessary to do when the object is being created:
-
-```
+#### To understand the meaning of classes we have to understand the built-in `__init__()` function.
+#### All classes have a function called `__init__()`, which is always executed when the class is being initiated.
+#### Use the `__init__()` function to assign values to object properties, or other operations that are necessary to do when the object is being created:
+```python
 class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
 p1 = Person("John", 36)
 
 print(p1.name)
 print(p1.age)
-
-```
